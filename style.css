@@ -1,0 +1,76 @@
+@font-face {
+    font-family: AmazonEmber;
+    src: url(./assets/AmazonEmber_Rg.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: AmazonEmber;
+    src: url(./assets/AmazonEmber_Bd.ttf) format('truetype');
+    font-weight: bold;
+}
+
+body {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-family: AmazonEmber, Helvetica, Arial, sans-serif;
+}
+
+div {
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: AmazonEmber;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#logo {
+    height: 5rem;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#title,
+#time {
+    margin-bottom: 1rem;
+    font-size: 6rem;
+}
+
+[contenteditable] {
+    outline: 0px solid transparent;
+}
+
+button {
+    cursor: pointer;
+    background-color: #ec7211;
+    border: 2px solid #ec7211;
+    height: 5rem;
+    width: 10rem;
+    border-radius: 5rem;
+    color: #fff;
+    font-family: AmazonEmber, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: rgba(0, 0, 0, .05) 0 1px 0;
+    padding: 5px 20px;
+    margin: 0rem 1rem;
+}
+
+button:hover {
+    background-color: #eb5f07;
+    border: 2px solid #eb5f07;
+}
